@@ -1,0 +1,76 @@
+.login-box{
+    width: 100%;
+    height: 600px;
+    background-color: #dcc4f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.login-box form{
+    width: 500px;
+    max-height: 550px;
+    padding: 10px;
+    background-color: #ad6aed39;
+    box-shadow: inset 0px 0px 10px blueviolet;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap:20px;
+    
+}
+.login-box form h2{
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    place-content: center;
+    color: blanchedalmond;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.login-box form .input-feild{
+    width: 100%;
+}
+.login-box form .iinput-feild label{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+.login-box form .input-feild input,
+.login-box form .input-feild select{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid blueviolet;
+
+}
+.login-box form .input-feild p{
+    font-size: 14px;
+    color:red;
+    font-weight: bold;
+    padding: 5px;
+}
+.login-box form .button-field{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 10px;
+}
+.login-box form .button-field button{
+    width: 100%;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid blueviolet;
+}
+
+  
+  
+  
+  

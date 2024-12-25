@@ -1,0 +1,67 @@
+.appointment{
+    width: 100%;
+    height: 150vh;
+    background-color: #dcc4f3;
+    display: grid;
+    place-content: center;
+    
+}
+.appointment form{
+    width: 500px;
+    max-height: 850px;
+    background-color: #ad6aed39;
+    box-shadow: inset 0px 0px 10px blueviolet;
+    border-radius: 8px;
+    gap:20px;
+    
+}
+.appointment form h2{
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    place-content: center;
+    color: blanchedalmond;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.appointment form .input-feild,
+.appointment form .button-fd{
+    width: 100%;
+    padding: 10px 50px;
+
+}
+.appointment form .input-feild label{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+.appointment form .input-feild input,
+.appointment form .input-feild select{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+}
+.appointment form .input-feild p{
+    font-size: 14px;
+    color:red;
+    font-weight: bold;
+    padding: 5px;
+}
+.appointment form .button-fd{
+    margin-top: 20px;
+}
+.appointment form .button-fd button{
+    width: 100%;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid blueviolet;
+
+}
